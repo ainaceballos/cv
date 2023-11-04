@@ -1,0 +1,48 @@
+/* ESTRUCTURA*/
+.main-container {
+		display: flex;
+}
+
+
+/* GENERAL */
+ul {
+	list-style-type: none;
+}
+
+
+/* CAPÇALERA */
+#capçalera {
+	background-color: #F2C6C2;
+	/*box-shadow: 3px 3px 20px 5px #F2E8DF inset;*/
+}
+#capçalera h1 {
+	margin:0px 0px 0px 60px;
+}
+#capçalera h2 {
+	letter-spacing: 5px;
+	color: white;
+	margin:0px 50px 50px 60px;
+}
+#foto_perfil img{
+	border-radius: 50%;
+	margin:0px 200px 10px 40px;
+}
+
+
+/* BLOC ESQUERRE */
+aside {
+	background-color: #F2E8DF;
+	display:block;
+	float: left;
+	margin:0px 200px 10px 40px;
+}
+aside section h2{
+	border-bottom: 2px solid black;
+}
+
+
+/* BLOC DRET */
+main {
+	background-color: #FFFFFF 
+	margin: 15px;
+}
